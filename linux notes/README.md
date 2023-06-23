@@ -1,7 +1,7 @@
 # Intro to Linux
 
 
-### What is a Shell?
+## What is a Shell?
 
 Software that provides interface to run the commands. There is multiple.
 
@@ -196,8 +196,8 @@ sudo service nginx restart
 ## Types of processes
 
 Two types
-1.	System processes: ps aux (see all, plus the system)
-2.	User processes: ps
+1.	System processes: **ps aux** (see all, plus the system)
+2.	User processes: **ps**
 
 Every process has a process ID (PID)
 
@@ -253,7 +253,9 @@ source .bashrc
 
 <br />
 
-### Grep search file for things and highlights them
+## Grep 
+
+Search file for things and highlight them
 
 ```
 adminuser@tech241-iveta-man-app:~$ cat chicken-joke.txt | grep chicken
@@ -288,7 +290,8 @@ adminuser@tech241-iveta-man-app:~$ kill 3086
 adminuser@tech241-iveta-man-app:~$ kill -9 3086 
 ```
 
-### File permissions
+
+## File permissions
 
 1.	Command to change file permissions: ```chmod```
 2.	```chmod``` can be used only by the file **owner** or a **superuser** ( the superuser account, called **'root'**, is virtually omnipotent, with unrestricted access to all commands, files, directories, and resources. ).
@@ -341,7 +344,7 @@ Chmod o 0 filename
 
 
 
-
+## Ownership
 
 ### Why is managing file ownership important?
 All Linux files belong to an owner and a group.
